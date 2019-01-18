@@ -1,0 +1,31 @@
+18-10-27 08:46:49,149 [main] Logfile closed: E:\Springws\NTSP710\BootTxMgmtProj10-DistributedTxMgmt\.\tmlog-1.log
+18-10-27 08:46:49,284 [main] AtomikosDataSoureBean 'oraXADs': no testQuery set - the connection pool will not be able to validate the connections!
+18-10-27 08:46:49,285 [main] AtomikosDataSoureBean 'oraXADs': poolSize equals default - this may cause performance problems!
+18-10-27 08:46:49,386 [main] Coordinator not recoverable: 10.147.247.167.tm0000100001
+18-10-27 08:46:49,723 [main] AtomikosDataSoureBean 'mysqlXADs': no testQuery set - the connection pool will not be able to validate the connections!
+18-10-27 08:46:49,723 [main] AtomikosDataSoureBean 'mysqlXADs': poolSize equals default - this may cause performance problems!
+18-10-27 08:46:49,745 [main] Coordinator not recoverable: 10.147.247.167.tm0000100001
+18-10-27 08:46:50,365 [main] atomikos connection pool 'oraXADs': destroying pool...
+18-10-27 08:46:50,367 [main] atomikos connection pool 'mysqlXADs': destroying pool...
+18-10-27 08:47:54,555 [main] Starting read of logfile E:\Springws\NTSP710\BootTxMgmtProj10-DistributedTxMgmt\.\tmlog0.log
+18-10-27 08:47:54,555 [main] Done read of logfile
+18-10-27 08:47:54,555 [main] Logfile closed: E:\Springws\NTSP710\BootTxMgmtProj10-DistributedTxMgmt\.\tmlog0.log
+18-10-27 08:47:54,636 [main] AtomikosDataSoureBean 'oraXADs': no testQuery set - the connection pool will not be able to validate the connections!
+18-10-27 08:47:54,638 [main] AtomikosDataSoureBean 'oraXADs': poolSize equals default - this may cause performance problems!
+18-10-27 08:47:54,679 [main] Coordinator not recoverable: 10.147.247.167.tm0000100002
+18-10-27 08:47:55,012 [main] AtomikosDataSoureBean 'mysqlXADs': no testQuery set - the connection pool will not be able to validate the connections!
+18-10-27 08:47:55,012 [main] AtomikosDataSoureBean 'mysqlXADs': poolSize equals default - this may cause performance problems!
+18-10-27 08:47:55,035 [main] Coordinator not recoverable: 10.147.247.167.tm0000100002
+18-10-27 08:47:55,258 [main] atomikos connection pool 'oraXADs': destroying pool...
+18-10-27 08:47:55,259 [main] atomikos connection pool 'mysqlXADs': destroying pool...
+18-10-27 08:48:18,329 [main] Starting read of logfile E:\Springws\NTSP710\BootTxMgmtProj10-DistributedTxMgmt\.\tmlog1.log
+18-10-27 08:48:18,330 [main] Done read of logfile
+18-10-27 08:48:18,330 [main] Logfile closed: E:\Springws\NTSP710\BootTxMgmtProj10-DistributedTxMgmt\.\tmlog1.log
+18-10-27 08:48:18,539 [main] AtomikosDataSoureBean 'oraXADs': no testQuery set - the connection pool will not be able to validate the connections!
+18-10-27 08:48:18,540 [main] AtomikosDataSoureBean 'oraXADs': poolSize equals default - this may cause performance problems!
+18-10-27 08:48:18,578 [main] Coordinator not recoverable: 10.147.247.167.tm0000100003
+18-10-27 08:48:18,810 [main] AtomikosDataSoureBean 'mysqlXADs': no testQuery set - the connection pool will not be able to validate the connections!
+18-10-27 08:48:18,810 [main] AtomikosDataSoureBean 'mysqlXADs': poolSize equals default - this may cause performance problems!
+18-10-27 08:48:18,835 [main] Coordinator not recoverable: 10.147.247.167.tm0000100003
+18-10-27 08:48:19,183 [main] atomikos connection pool 'oraXADs': destroying pool...
+18-10-27 08:48:19,186 [main] atomikos connection pool 'mysqlXADs': destroying pool...

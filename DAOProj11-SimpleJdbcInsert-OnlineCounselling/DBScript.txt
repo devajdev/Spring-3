@@ -1,0 +1,1 @@
+SQL> create table  EnggCounselling(htNo number(6) primary key,rank number(10),DOB date,prefferedStreams Varchar2(20),prefferedColleges varchar2(20));

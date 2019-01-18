@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+   <!-- handler mapping cfgs -->
+   <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+      <property name="mappings">
+        <props>
+          <prop key="/welcome.htm">ufnvc</prop>
+          <prop key="/wish.htm">wmgc</prop>
+          <prop key="/about_us.htm">ufnvc</prop>
+          <prop key="/contact.htm">ufnvc1</prop>
+        </props>
+      </property>
+   </bean>
+  
+   <!-- Controller classes cfgs -->
+   <bean id="ufnvc" class="org.springframework.web.servlet.mvc.UrlFilenameViewController"/>
+   
+   <bean id="ufnvc1" class="org.springframework.web.servlet.mvc.UrlFilenameViewController">
+     <property name="suffix" value="_us"/>
+   </bean>
+   
+   
+   <bean id="wmgc" class="com.nt.controller.WishMessageGeneratorController"/>
+   <!-- ViewResolver cfgs -->
+   <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+     <property name="prefix" value="/WEB-INF/pages/"/>
+     <property name="suffix" value=".jsp"/>
+   </bean>
+   
+</beans>

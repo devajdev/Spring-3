@@ -1,0 +1,10 @@
+SQL> desc MedPlusStore;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ MEDID                                     NOT NULL NUMBER(10)
+ MEDNAME                                            VARCHAR2(20)
+ FORMULAENAME                                       VARCHAR2(20)
+ PRICE                                              NUMBER(10,2)
+ COMPANY                                            VARCHAR2(10)
+
+SQL>

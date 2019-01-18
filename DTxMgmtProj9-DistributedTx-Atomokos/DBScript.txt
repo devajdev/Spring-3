@@ -1,0 +1,15 @@
+SQL> desc DTX_Account  (oracle)
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ACNO                                      NOT NULL NUMBER(5)
+ HOLDER                                             VARCHAR2(15)
+ BALANCE                                            NUMBER(10,2)
+ 
+ SQL> desc DTX_Account  (mysql)
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ACNO                                      NOT NULL int(5)
+ HOLDER                                             VARCHAR(15)
+ BALANCE                                            float(10,2)
+ 
+ 

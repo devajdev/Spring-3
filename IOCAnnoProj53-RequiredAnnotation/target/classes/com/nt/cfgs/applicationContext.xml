@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+  <!-- Dependent Bean cfg -->
+  <bean id="material" class="com.nt.beans.CourseMaterial">
+     <property name="name" value="CRJ"/>
+     <property name="pagesCount" value="100"/>
+  </bean>
+  <!-- taget bean cfg -->
+  <bean id="stud" class="com.nt.beans.Student">
+     <property name="sno" value="1001"/>
+   <!--   <property name="sname" value="raja"/> -->
+    <!--  <property name="material" ref="material"/> -->
+  </bean>
+  
+   <!-- cfg RequiredAnnotation Bean PostProcessor -->
+  <!-- <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/> --> 
+    <context:annotation-config/>
+
+</beans>

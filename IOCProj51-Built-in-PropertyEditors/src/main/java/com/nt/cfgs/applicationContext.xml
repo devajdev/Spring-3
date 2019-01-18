@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+ <!-- Spring Bean cfg -->
+ <bean id="aadhar"  class="com.nt.beans.AadharDetails">
+     <property name="uid" value="4434343435535"/>
+     <property name="name" value="raja"/>
+     <property name="dob" value="11/20/1978"/>
+     <property name="photoPath" value="d:/xyz/abc/raja.gif"/>
+     <property name="verifiers" value="rahul,modi"/>
+     <property name="maritalStatus" value="true"/>
+     <property name="gender" value="M"/>
+     <property name="height" value="7.6f"/>
+     <property name="pinCode" value="500038"/>
+     <property name="pinNumbers" value="9878,4558,5556"/>
+     <property name="clazz"  value="java.util.Calendar"/>
+     <property name="currencycode" value="INR"/>
+     <property name="locale" value="en_US"/>
+     <property name="nickNameChars" value="PAPPU"/>
+ </bean>
+
+
+</beans>

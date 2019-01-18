@@ -1,0 +1,6 @@
+SQL> create table RailTicketReservation(ticketId number(5) primary key,
+psgName varchar2(12),age number(5),
+source varchar2(10),dest varchar2(10),
+dojr date);
+
+SQL> create sequence ticketId_seq start with 1000 increment by 1;

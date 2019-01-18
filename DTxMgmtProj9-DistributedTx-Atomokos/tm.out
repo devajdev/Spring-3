@@ -1,0 +1,138 @@
+18-10-27 08:23:01,767 [main] Logfile closed: E:\Springws\NTSP710\DTxMgmtProj9-DistributedTx-Atomokos\.\tmlog-1.log
+18-10-27 08:23:03,653 [main] Error closing pending statement: 
+java.lang.IllegalArgumentException: null source
+	at java.util.EventObject.<init>(EventObject.java:56)
+	at javax.sql.StatementEvent.<init>(StatementEvent.java:65)
+	at com.mysql.jdbc.jdbc2.optional.JDBC4PreparedStatementWrapper.close(JDBC4PreparedStatementWrapper.java:70)
+	at com.atomikos.jdbc.AbstractConnectionProxy.forceCloseAllPendingStatements(AbstractConnectionProxy.java:60)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.close(AtomikosConnectionProxy.java:221)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.invoke(AtomikosConnectionProxy.java:151)
+	at com.sun.proxy.$Proxy18.close(Unknown Source)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doCloseConnection(DataSourceUtils.java:354)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doReleaseConnection(DataSourceUtils.java:341)
+	at org.springframework.jdbc.datasource.DataSourceUtils.releaseConnection(DataSourceUtils.java:307)
+	at org.springframework.jdbc.datasource.DataSourceUtils$ConnectionSynchronization.beforeCompletion(DataSourceUtils.java:473)
+	at org.springframework.transaction.support.TransactionSynchronizationUtils.triggerBeforeCompletion(TransactionSynchronizationUtils.java:107)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.triggerBeforeCompletion(AbstractPlatformTransactionManager.java:935)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:826)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:812)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.completeTransactionAfterThrowing(TransactionAspectSupport.java:551)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:298)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy16.transferMoney(Unknown Source)
+	at com.nt.test.DistributedTxMgmtTest.main(DistributedTxMgmtTest.java:21)
+18-10-27 08:23:03,844 [main] Logfile closed: E:\Springws\NTSP710\DTxMgmtProj9-DistributedTx-Atomokos\.\tmlog0.log
+18-10-27 08:28:16,053 [main] Starting read of logfile E:\Springws\NTSP710\DTxMgmtProj9-DistributedTx-Atomokos\.\tmlog0.log
+18-10-27 08:28:16,064 [main] Done read of logfile
+18-10-27 08:28:16,064 [main] Logfile closed: E:\Springws\NTSP710\DTxMgmtProj9-DistributedTx-Atomokos\.\tmlog0.log
+18-10-27 08:28:16,528 [main] Error closing pending statement: 
+java.lang.IllegalArgumentException: null source
+	at java.util.EventObject.<init>(EventObject.java:56)
+	at javax.sql.StatementEvent.<init>(StatementEvent.java:65)
+	at com.mysql.jdbc.jdbc2.optional.JDBC4PreparedStatementWrapper.close(JDBC4PreparedStatementWrapper.java:70)
+	at com.atomikos.jdbc.AbstractConnectionProxy.forceCloseAllPendingStatements(AbstractConnectionProxy.java:60)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.close(AtomikosConnectionProxy.java:221)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.invoke(AtomikosConnectionProxy.java:151)
+	at com.sun.proxy.$Proxy18.close(Unknown Source)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doCloseConnection(DataSourceUtils.java:354)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doReleaseConnection(DataSourceUtils.java:341)
+	at org.springframework.jdbc.datasource.DataSourceUtils.releaseConnection(DataSourceUtils.java:307)
+	at org.springframework.jdbc.datasource.DataSourceUtils$ConnectionSynchronization.beforeCompletion(DataSourceUtils.java:473)
+	at org.springframework.transaction.support.TransactionSynchronizationUtils.triggerBeforeCompletion(TransactionSynchronizationUtils.java:107)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.triggerBeforeCompletion(AbstractPlatformTransactionManager.java:935)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:826)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:812)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.completeTransactionAfterThrowing(TransactionAspectSupport.java:551)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:298)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy16.transferMoney(Unknown Source)
+	at com.nt.test.DistributedTxMgmtTest.main(DistributedTxMgmtTest.java:22)
+18-10-27 08:28:16,556 [main] Logfile closed: E:\Springws\NTSP710\DTxMgmtProj9-DistributedTx-Atomokos\.\tmlog1.log
+18-10-27 08:30:30,549 [main] Starting read of logfile E:\Springws\NTSP710\DTxMgmtProj9-DistributedTx-Atomokos\.\tmlog1.log
+18-10-27 08:30:30,561 [main] Done read of logfile
+18-10-27 08:30:30,583 [main] Logfile closed: E:\Springws\NTSP710\DTxMgmtProj9-DistributedTx-Atomokos\.\tmlog1.log
+18-10-27 08:30:31,160 [main] Error closing pending statement: 
+java.lang.IllegalArgumentException: null source
+	at java.util.EventObject.<init>(EventObject.java:56)
+	at javax.sql.StatementEvent.<init>(StatementEvent.java:65)
+	at com.mysql.jdbc.jdbc2.optional.JDBC4PreparedStatementWrapper.close(JDBC4PreparedStatementWrapper.java:70)
+	at com.atomikos.jdbc.AbstractConnectionProxy.forceCloseAllPendingStatements(AbstractConnectionProxy.java:60)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.close(AtomikosConnectionProxy.java:221)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.invoke(AtomikosConnectionProxy.java:151)
+	at com.sun.proxy.$Proxy19.close(Unknown Source)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doCloseConnection(DataSourceUtils.java:354)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doReleaseConnection(DataSourceUtils.java:341)
+	at org.springframework.jdbc.datasource.DataSourceUtils.releaseConnection(DataSourceUtils.java:307)
+	at org.springframework.jdbc.datasource.DataSourceUtils$ConnectionSynchronization.beforeCompletion(DataSourceUtils.java:473)
+	at org.springframework.transaction.support.TransactionSynchronizationUtils.triggerBeforeCompletion(TransactionSynchronizationUtils.java:107)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.triggerBeforeCompletion(AbstractPlatformTransactionManager.java:931)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:727)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:710)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:532)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:304)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy16.transferMoney(Unknown Source)
+	at com.nt.test.DistributedTxMgmtTest.main(DistributedTxMgmtTest.java:22)
+18-10-27 08:30:31,407 [main] Logfile closed: E:\Springws\NTSP710\DTxMgmtProj9-DistributedTx-Atomokos\.\tmlog2.log
+18-10-27 08:31:04,070 [main] Starting read of logfile E:\Springws\NTSP710\DTxMgmtProj9-DistributedTx-Atomokos\.\tmlog2.log
+18-10-27 08:31:04,106 [main] Done read of logfile
+18-10-27 08:31:04,106 [main] Logfile closed: E:\Springws\NTSP710\DTxMgmtProj9-DistributedTx-Atomokos\.\tmlog2.log
+18-10-27 08:31:04,580 [main] Error closing pending statement: 
+java.lang.IllegalArgumentException: null source
+	at java.util.EventObject.<init>(EventObject.java:56)
+	at javax.sql.StatementEvent.<init>(StatementEvent.java:65)
+	at com.mysql.jdbc.jdbc2.optional.JDBC4PreparedStatementWrapper.close(JDBC4PreparedStatementWrapper.java:70)
+	at com.atomikos.jdbc.AbstractConnectionProxy.forceCloseAllPendingStatements(AbstractConnectionProxy.java:60)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.close(AtomikosConnectionProxy.java:221)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.invoke(AtomikosConnectionProxy.java:151)
+	at com.sun.proxy.$Proxy19.close(Unknown Source)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doCloseConnection(DataSourceUtils.java:354)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doReleaseConnection(DataSourceUtils.java:341)
+	at org.springframework.jdbc.datasource.DataSourceUtils.releaseConnection(DataSourceUtils.java:307)
+	at org.springframework.jdbc.datasource.DataSourceUtils$ConnectionSynchronization.beforeCompletion(DataSourceUtils.java:473)
+	at org.springframework.transaction.support.TransactionSynchronizationUtils.triggerBeforeCompletion(TransactionSynchronizationUtils.java:107)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.triggerBeforeCompletion(AbstractPlatformTransactionManager.java:931)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:822)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:808)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.completeTransactionAfterThrowing(TransactionAspectSupport.java:550)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:298)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy16.transferMoney(Unknown Source)
+	at com.nt.test.DistributedTxMgmtTest.main(DistributedTxMgmtTest.java:22)
+18-10-27 08:31:04,616 [main] Logfile closed: E:\Springws\NTSP710\DTxMgmtProj9-DistributedTx-Atomokos\.\tmlog3.log
+18-10-27 08:32:21,781 [main] Starting read of logfile E:\Springws\NTSP710\DTxMgmtProj9-DistributedTx-Atomokos\.\tmlog3.log
+18-10-27 08:32:21,782 [main] Done read of logfile
+18-10-27 08:32:21,782 [main] Logfile closed: E:\Springws\NTSP710\DTxMgmtProj9-DistributedTx-Atomokos\.\tmlog3.log
+18-10-27 08:32:22,173 [main] Error closing pending statement: 
+java.lang.IllegalArgumentException: null source
+	at java.util.EventObject.<init>(EventObject.java:56)
+	at javax.sql.StatementEvent.<init>(StatementEvent.java:65)
+	at com.mysql.jdbc.jdbc2.optional.JDBC4PreparedStatementWrapper.close(JDBC4PreparedStatementWrapper.java:70)
+	at com.atomikos.jdbc.AbstractConnectionProxy.forceCloseAllPendingStatements(AbstractConnectionProxy.java:60)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.close(AtomikosConnectionProxy.java:221)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.invoke(AtomikosConnectionProxy.java:151)
+	at com.sun.proxy.$Proxy18.close(Unknown Source)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doCloseConnection(DataSourceUtils.java:354)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doReleaseConnection(DataSourceUtils.java:341)
+	at org.springframework.jdbc.datasource.DataSourceUtils.releaseConnection(DataSourceUtils.java:307)
+	at org.springframework.jdbc.datasource.DataSourceUtils$ConnectionSynchronization.beforeCompletion(DataSourceUtils.java:473)
+	at org.springframework.transaction.support.TransactionSynchronizationUtils.triggerBeforeCompletion(TransactionSynchronizationUtils.java:107)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.triggerBeforeCompletion(AbstractPlatformTransactionManager.java:935)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:826)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:812)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.completeTransactionAfterThrowing(TransactionAspectSupport.java:551)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:298)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy16.transferMoney(Unknown Source)
+	at com.nt.test.DistributedTxMgmtTest.main(DistributedTxMgmtTest.java:22)
+18-10-27 08:32:22,181 [main] Logfile closed: E:\Springws\NTSP710\DTxMgmtProj9-DistributedTx-Atomokos\.\tmlog4.log
